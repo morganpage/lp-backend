@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "emailforms",
+  "info": {
+    "name": "Emailform",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "checkboxText": {
+      "type": "string"
+    },
+    "footerText": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "colorScheme": {
+      "type": "string"
+    }
+  }
+}

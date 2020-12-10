@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/emailform",
+      "handler": "emailform.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/emailform",
+      "handler": "emailform.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/emailform",
+      "handler": "emailform.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
