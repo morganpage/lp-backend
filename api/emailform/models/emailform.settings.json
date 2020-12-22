@@ -36,6 +36,9 @@
     },
     "colorScheme": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
