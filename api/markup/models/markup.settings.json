@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "markups",
+  "info": {
+    "name": "markup"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
