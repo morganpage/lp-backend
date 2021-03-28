@@ -18,7 +18,11 @@
       "type": "enumeration",
       "enum": [
         "Top",
-        "Bottom"
+        "Bottom",
+        "IndexTop",
+        "IndexMiddle",
+        "IndexBottom",
+        "SubscribedTop"
       ],
       "default": "Top",
       "required": true
